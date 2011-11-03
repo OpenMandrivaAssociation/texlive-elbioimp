@@ -1,3 +1,9 @@
+# revision 21758
+# category Package
+# catalog-ctan /macros/latex/contrib/elbioimp
+# catalog-date 2011-03-18 18:22:40 +0100
+# catalog-license lppl
+# catalog-version 1.2
 Name:		texlive-elbioimp
 Version:	1.2
 Release:	1
@@ -48,6 +54,7 @@ Electrical Bioimpedance.
 #- source
 %doc %{_texmfdistdir}/source/latex/elbioimp/elbioimp.dtx
 %doc %{_texmfdistdir}/source/latex/elbioimp/elbioimp.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -58,3 +65,5 @@ Electrical Bioimpedance.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
