@@ -6,7 +6,7 @@
 # catalog-version 1.2
 Name:		texlive-elbioimp
 Version:	1.2
-Release:	2
+Release:	3
 Summary:	A LaTeX document class for the Journal of Electrical Bioimpedance
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/elbioimp
