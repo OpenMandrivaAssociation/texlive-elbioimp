@@ -3,7 +3,7 @@ Version:	21758
 Release:	2
 Summary:	A LaTeX document class for the Journal of Electrical Bioimpedance
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/elbioimp
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/elbioimp
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/elbioimp.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/elbioimp.doc.r%{version}.tar.xz
